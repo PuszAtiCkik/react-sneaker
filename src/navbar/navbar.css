@@ -1,0 +1,256 @@
+/* // /* hatter */
+
+
+
+.btn-secondary {
+  position: relative;
+  left: 500px; 
+  background: none;
+  color: wheat;
+  border: none;
+
+  
+}
+
+.btn-secondary {
+  background: none;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+.btn-third {
+  color: white;
+  margin-top: 20px;
+
+}
+
+.btn-primary {
+  background: none;
+  color: white;
+  border: none;
+  margin-top: 20px;
+
+}
+.dropdown-menu li {
+ text-decoration: none;
+}
+
+
+
+
+
+.navbar {
+  position: relative;
+  background-color: transparent; 
+  z-index: 4000;
+
+}
+
+.navbar-brand {
+  position: absolute;
+  margin-left: 260px; 
+  margin-top: -80px;
+  flex: 1; 
+  max-width: 200px;
+}
+
+.navbar-brand img {
+display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .navbar-brand {
+    position: static; 
+    padding-right: 20px; 
+    display: flex;
+    align-items: center;
+    width: 20px;
+    margin-top: 50px;
+    max-width: 80px;
+    margin-left: -27px;
+    height: 20px;
+    
+  }
+  
+
+  .navbar-brand img {
+    margin-left: -1px;
+    margin-top: -11px;
+   
+  }
+
+
+  .btn-secondary {
+    left: 0; 
+    position: static;
+    margin-left: -20px; 
+    margin-top: -40px;
+  }
+
+  .btn-primary {
+    margin-top: -40px;
+  }
+
+  .btn-third {
+    margin-top: -40px;
+    
+  }
+
+  header {
+    margin-top: -110px;
+  }
+
+  header img {
+    margin-top: 86px;
+    height: 20px;
+  }
+
+  .carousel-control-prev.kovi {
+    margin-top: 35%;
+  } 
+  
+  .carousel-control-next.kovi {
+    margin-top: 35%;
+  }
+
+
+
+
+}
+
+@media (max-width: 2560px) {
+  .navbar-brand {
+    position: static; 
+    padding-left: 20px; 
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .btn-secondary {
+    left: 0; 
+  }
+
+  header {
+    margin-top: -130px;
+    
+  }
+
+  
+}
+
+
+
+
+
+
+/* offcanvas !important */
+
+
+
+/* sneaker dropdown */
+
+
+
+
+
+
+/* masik offcanvasok */
+
+.offcanvas-header1 .btn-close {
+  margin-left: -3px;
+  margin-top: 2px;
+  border: 0.3px ridge grey;
+  border-radius: 40px;
+}
+
+ .offcanvas-start1 {
+  margin-left: 2%;
+  margin-top: 4%;
+  height: 96%;
+} 
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  font-size: 40px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  
+
+}
+
+li:hover {
+text-decoration: underline solid 1px black;
+
+}
+
+
+
+.kosar {
+  margin-left: 42%;
+  margin-top: 3%;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.customoffcanvas {
+  margin-left: 2%;
+}
+
+ .offcanvas {
+  margin-right: 2%;
+  margin-top: 1%;
+  height: 96%;
+} 
+
+
+
+
+
+.custom input {
+padding: 10px;
+}
+
+.custom input::placeholder {
+font-size: larger;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.offcanvas-body3 span {
+margin-left: 50%;
+font-size: 55px;
+margin-top: 40%;
+
+}
+
+
+
+ .offcanvas-body3  .number {
+margin-left: 62%;
+margin-top: -6%;
+background-color: black;
+border-radius: 40px;
+width: 18px;
+color: white;
+text-align: center;
+} 
+
+body{
+    background-color: black;
+}
